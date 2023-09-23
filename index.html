@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords" content="Canal BVG, canal bvg, noticias, Bela Vista, Bela Vista de Goiás, Larsen Costa">
+    <meta name="description" content="Site Canal BVG com intuito de informar as pessoas.">
+    <meta name="author" content="Luís Eduardo Peixoto Marquês(Desenvolvedor), Larsen Marquês da Costa(Driagramador)">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <title>Canal BVG</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+       <a href="index.html" class="logo-text">Canal BVG</a>
+        
+        <button style="display: none;" class="header__btnMenu"> <i class="fas fa-bars fa-2x"></i> <span class="sr-only"><img src="imagens/menuhamburguricon.png" alt="menu"></span></button>
+        
+        <nav class="header__nav">
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Materias</a></li>
+            <li><a href="#contato">Contato</a></li>  
+          </ul>
+        </nav>
+      </header>
+
+    <section class="containerproje" id="inicio">
+        <div class="slide-container active">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>Canal BVG</h3>
+               <p> Materias sobre esportes mundial e na região
+                de Bela Vista de Goiás, veja mais sobre clicando no botão abaixo.
+               </p>
+               <a href="https://ftd.com.br/" class="bntproj">Saiba mais</a>
+             </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>Eventos</h3>
+               <p>O canal BVG tambem oferece conhecimento sobre eventos culturais, com foco em eventos na redondesa de Bela Vista de Goiás mas tambem mundo a fora.</p>
+               <a href="https://ftd.com.br/" class="bntproj">Saiba mais</a>
+            </div>
+            </div>
+        </div>
+        
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>Notícias</h3>
+               <p> Veja as principais notícias de Bela Vista e Região, clique em "Saiba mais".</p>
+               <a href="https://www.escolasconectadas.org.br/cursos" class="bntproj">Saiba mais</a>
+             </div>
+            </div>
+        </div>
+
+      </div>
+        
+        <div id="prev" onclick="prev()"> < </div>
+        <div id="next" onclick="next()"> > </div>
+    </section>
+
+        <section class="foto" id="sobre" data-aos="fade-up">
+          <article class="foto-1">
+          <h2>Quem somos?</h2>
+          <p>
+             Um canal com prioridade para as informações esportivas de Bela Vista e Região.Ações em segundo plano Temos também como meta, mesmo tendo o esporte como prioridade, a cobertura dos eventos sociais da cidade de Bela Vista de Goiás e região. Ainda estaremos com atenção máxima voltada para os eventuais acontecimentos aleatórios. O Canal BVG tem como intuito, buscar a informação e repassa lá como ela é!</p>
+          <button><a href="#">Contato</a></button>
+          <button><a href="#">Saiba mais</a></button>
+         </article>
+          <article class="foto-2">
+            <img src="imagens/foto2.png" alt="Foto sobre jornalismo e trabalho.">
+            
+          </article>
+         <section class="noticias">
+          <h2 class="noticiasTitle">Materias</h2>
+
+       <article class="materias">
+                
+            <div class="capa">
+             <a href="htmlMaterias/indexMat4.html"><img class="capaMateria" src="imagens/foto4.png" alt="Miniatura video sobre bicicletas."></a>
+            </div>
+            <div class="titleOfNoticias">
+              <h2> <a href="htmlMaterias/indexMat4.html">Passeio ciclistico</a></h2>
+                <p>Ciclistas pencorrem o caminho de Bela Vista de Goiás até Aruanã, veja mais sobre!</p>
+                <h3>Data: 16/07/2023</h3>
+            </div>
+       </article>
+
+       <article class="materias">
+                
+            <div class="capa">
+             <a href="htmlMaterias/indexMat3.html"><img class="capaMateria" src="imagens/novaveneza.jpeg" alt="Miniatura de Nova Veneza."></a>
+            </div>
+            <div class="titleOfNoticias">
+              <h2> <a href="htmlMaterias/indexMat3.html">Projeto para Nova Veneza</a></h2>
+                <p>Lena Italiana, fala mais sobre seu projeto para melhorar a cidade de Nova Veneza, saiba mais!</p>
+                <h3>Data: 07/07/2023</h3>
+            </div>
+        </article>
+
+      <article class="materias">
+                
+        <div class="capa">
+         <a href="htmlMaterias/indexMat2.html"><img class="capaMateria" src="imagens/Captura de Tela (94).png" alt="Miniatura de Nova Veneza."></a>
+        </div>
+        <div class="titleOfNoticias">
+          <h2> <a href="htmlMaterias/indexMat2.html">Nova Veneza</a></h2>
+            <p>Festa tematica em Nova Veneza atrai centenas de turistas para a cidade, veja mais!</p>
+            <h3>Data: 04/06/2023</h3>
+        </div>
+    </article>
+
+    <article class="materias">
+                
+      <div class="capa">
+       <a href="htmlMaterias/indexMat1.html"><img class="capaMateria" src="imagens/tumb video1.png" alt="Miniatura do jogo Belavistense VS aragoiania 0 a 0."></a>
+      </div>
+      <div class="titleOfNoticias">
+        <h2> <a href="htmlMaterias/indexMat1.html" >Jogos da Serie B Belavistense VS Aragoiania</a></h2>
+          <p> Jogo entre Belavistense VS Aragoiania, clique para ver mais!</p>
+          <h3>Data: 19/05/2023</h3>
+      </div>
+
+  </article>
+    <div class="advanceVoltar">
+      <button><a href="#">Antigos &rarr;</a></button>
+    </div>
+
+         </section>
+        </section>
+      
+          <footer class="footer">
+            <div class="container">
+                <h2 class="footer__logo">©Canal BVG</h2>
+        
+                <p>Site desenvolvido por Luís Eduardo Peixoto Marques</p>
+
+                <p>Numero para contato (62)99921-2009<br>Email para contato @canalbvg@gmail.com </p>
+
+              <ul class="footer__links">
+                <li><a href="https://www.youtube.com/@CanalBVG" target="_blank">Youtube</a></li>
+                <li><a href="https://www.instagram.com/canal_bgv/" target="_blank">Instagram</a></li>
+              </ul>
+            </div>
+        </footer>
+
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration: 1700,
+          });
+        </script>
+    <script src="js/slide.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
