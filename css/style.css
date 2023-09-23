@@ -164,19 +164,19 @@ img{
 }
 
 .containerproje .slide-container:nth-child(1) .slide{
-    background: url(/imagens/back1.jpg);
+    background: url(../imagens/back1.jpg);
     background-size: cover ;
     background-repeat: no-repeat;
 }
 
 .containerproje .slide-container:nth-child(2) .slide{
-    background: url(/imagens/fundoponte.jpg);
+    background: url(../imagens/fundoponte.jpg);
     background-size:cover;
     background-repeat: no-repeat;
 }
 
 .containerproje .slide-container:nth-child(3) .slide{
-    background: url(/imagens/bac3.jpg);
+    background: url(../imagens/bac3.jpg);
     background-size:cover;
     background-repeat: no-repeat;
 }
